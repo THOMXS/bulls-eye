@@ -31,12 +31,5 @@ public class Welcome extends AppCompatActivity {
                 startActivity(telaRegister);
             }
         });
-
-        btnAbout.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                Intent telaAbout = new Intent(Welcome.this, About.class);
-                startActivity(telaAbout);
-            }
-        });
     }
 }
