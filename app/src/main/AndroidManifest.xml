@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".item_objetivos"></activity>
+        <activity android:name=".Perfil"></activity>
         <activity
             android:name=".Objetivos"
             android:label="@string/title_activity_objetivos"
@@ -18,19 +18,15 @@
         <activity android:name=".SignUpSuccess" />
         <activity android:name=".LoginError" />
         <activity android:name=".LoginSuccess" />
-        <activity android:name=".About" />
         <activity android:name=".SignUp" />
-        <activity android:name=".Login" />
-        <activity
-            android:name=".Welcome"
-            android:label="@string/app_name"
-            android:screenOrientation="portrait">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+        <activity android:name=".Login">
+        <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
         </activity>
+
     </application>
 
 </manifest>
