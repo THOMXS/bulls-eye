@@ -24,7 +24,7 @@ public class SignUpSuccess extends AppCompatActivity {
 
         btnAbout.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent telaSignUpSucess = new Intent(SignUpSuccess.this, About.class);
+                Intent telaSignUpSucess = new Intent(SignUpSuccess.this, Objetivos.class);
                 startActivity(telaSignUpSucess);
             }
         });

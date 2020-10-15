@@ -17,7 +17,7 @@ public class LoginSuccess extends AppCompatActivity {
 
         btnAbout.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent telaLoginSuccess = new Intent(LoginSuccess.this, About.class);
+                Intent telaLoginSuccess = new Intent(LoginSuccess.this, Objetivos.class);
                 startActivity(telaLoginSuccess);
             }
         });

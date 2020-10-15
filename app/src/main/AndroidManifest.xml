@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SignUpError"></activity>
+        <activity android:name=".item_objetivos"></activity>
+        <activity
+            android:name=".Objetivos"
+            android:label="@string/title_activity_objetivos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".SignUpError" />
         <activity android:name=".SignUpSuccess" />
         <activity android:name=".LoginError" />
         <activity android:name=".LoginSuccess" />
